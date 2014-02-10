@@ -1,7 +1,7 @@
 LearningProcessing
 ==================
 
-Placeholder project to hold all my Processing learnings
+Project to hold all my Processing learnings
 
 ---
 
@@ -9,7 +9,6 @@ Day 1:
 
 - Started watching https://vimeo.com/channels/natureofcode/ up to Video 1.2
 - Created a random walker using black dots on a white background
-.git
 ![2014-02-09](https://github.com/andyjamesdavies/LearningProcessing/raw/master/screenshots/2014_02_09.png)
 
 - Created a random walker using colored ellipses
