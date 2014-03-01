@@ -29,9 +29,14 @@ Day 2:
 
 Day 3:
 
-- Watched https://vimeo.com/channels/natureofcode/ from Video 1.5
+- Watched https://vimeo.com/channels/natureofcode/ from Video 1.5 & 1.6
 - Updated walker so that stepSize is now a two PVectors (acceleration and velocity). 
 - Using Perlin noise to randomise acceleration values.
 - Added an algorithm if choice is below 50% add acceleration to velocity (increase velocity), else subtract acceleration from velocity (reduce velocity).
 - Added a topSpeed variable to limit the velocity to an arbitrary number before performing the same calculations as before on whether to go up/down/left/right based off of velocity.
 ![2014-03-01](https://github.com/andyjamesdavies/LearningProcessing/raw/master/screenshots/2014_03_01.png)
+
+- Added a gravity PVector that is in the center of the screen 85% of the time, but will randomly choose a new gravity anchor point 15% of the time.
+- Limit the velocity based off of the gravity x and y coordinates.
+- Changed the render function to use ellipses.
+![2014-03-01](https://github.com/andyjamesdavies/LearningProcessing/raw/master/screenshots/2014_03_01_2.png)

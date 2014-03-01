@@ -10,5 +10,5 @@ void setup() {
 
 void draw() {
   w.step();
-  w.render(); 
+  w.render();
 }
